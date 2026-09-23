@@ -1,0 +1,241 @@
+.contenedor {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+/*las cosas de la f3*/
+.franja3 {
+    height: 3rem;
+    background-color: #656A73;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 40px;
+}
+
+.franja3-izquierda {
+    display: flex;
+    gap: 15px;
+}
+
+.cuadrado {
+    width: 25px;
+    height: 25px;
+    background-color: #474F59;
+}
+
+.franja3-derecha {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.bloque-blanco {
+    width: 120px;
+    height: 12px;
+    background-color: #FFFFFF;
+}
+
+.bloque-gris {
+    width: 80px;
+    height: 12px;
+    background-color: #474F59;
+}
+/*listo cosas f3*/
+
+/*las cosas de la f4*/
+.franja4 {
+    height: 5rem;
+    background-color: #474F59;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 40px;
+}
+
+.menu-items {
+    display: flex;
+    gap: 30px;
+    align-self: end;
+    margin-bottom: 20px;
+}
+
+.item-bloque {
+    width: 100px;
+    height: 8px;
+    background-color: #A0A5AD;
+}
+
+.buscador {
+    display: flex;
+    width: 500px;
+    height: 35px;
+}
+
+.barra-input {
+    flex-grow: 1;
+    background-color: #FFFFFF;
+}
+
+.boton-input {
+    width: 35px;
+    background-color: #FF9978;
+}
+/*listo cosas f4*/
+
+.franja6 {
+    height: 12rem;
+    background-color: #474F59;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px 40px;
+}
+
+.caja-tres-columnas {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 100%;
+    gap: 50px;
+}
+
+.caja-por-columna {
+    display: flex;
+    flex-direction: column;
+}
+
+.titulo-columnas {
+    height: 0.8rem;
+    width: 70%;
+    background-color: #656A73;
+    margin-bottom: 8px;
+}
+
+.textos {
+    height: 0.3rem;
+    background-color: #656A73;
+    width: 100%;
+    margin-bottom: 6px;
+}
+
+.texto-mediano {
+    width: 80%;
+}
+
+.texto-corto {
+    width: 50%;
+}
+
+.abajo-derecha {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+}
+
+.bloque-abajo {
+    width: 12%;
+    height: 0.4rem;
+    background-color: #656A73;
+    margin-left: 20px;
+}
+
+/*cosas franja 5*/
+.franja5 {
+    background-color: #656A73;
+    flex-grow: 1;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+}
+
+.sidebar {
+    background-color: #474F59;
+    width: 90%;
+    height: 82%;
+    justify-self: end;
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+    padding: 20px 0;
+}
+
+.elementos {
+    background-color: #656A73;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 75%;
+    justify-self: center;
+    gap: 15px;
+}
+
+.contenedor-video {
+    grid-column: span 3;
+    margin-top: 27px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.video {
+    background-color: #ff9978;
+    flex-grow: 1;
+    height: 200px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 15px; 
+}
+.flecha {
+    color: #ffffff;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.icono-play {
+    color: #ffffff;
+    font-size: 40px;
+}
+
+.miniatura{
+    background-color: #474F59;
+    height: 50%;
+    margin-top: 25px;
+}
+
+.item-miniatura {
+    display: flex;
+    flex-direction: column;
+}
+
+.sidebar button{
+    display: flex;          /* pone a el icono y el texto en fila */
+    align-items: center;    
+    gap: 12px;             
+    width: 100%;
+    padding: 12px 25px;
+    color: #656A73;
+    background-color: transparent;
+    border: none;
+    font-size: 14px;
+    font-weight: 500;
+    box-sizing: border-box;
+    transition: all 0.2s ease;
+    cursor: pointer;
+    flex: 1;
+    width: 100%;
+    }
+
+    .sidebar button:hover {
+        background-color:#ff9978;
+        color: #ffffff;
+    }
+    
+    .sidebar button.active i,
+    .sidebar button:hover i {
+        color: #ffffff;
+    }
+    p{
+        color: #c6c5c5;
+    }
+    /*listo cosas f5*/
